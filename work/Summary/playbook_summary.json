@@ -1,0 +1,52 @@
+{
+  "n_rows": 30000,
+  "base_rate": 0.542,
+  "precision_at_20": 0.5,
+  "precision_at_50": 0.46,
+  "archetype_profile": [
+    {
+      "archetype": "Stale Heavyweights",
+      "n": 2887,
+      "impressions_median": 4599.0,
+      "decline_rate": 0.647
+    },
+    {
+      "archetype": "Aging Page-One (Engagement Gap)",
+      "n": 5925,
+      "impressions_median": 1159.0,
+      "decline_rate": 0.617
+    },
+    {
+      "archetype": "Young & Slipping",
+      "n": 11058,
+      "impressions_median": 555.5,
+      "decline_rate": 0.608
+    },
+    {
+      "archetype": "Established Performers",
+      "n": 7352,
+      "impressions_median": 565.5,
+      "decline_rate": 0.412
+    },
+    {
+      "archetype": "Low-Demand Long-Tail",
+      "n": 2638,
+      "impressions_median": 256.0,
+      "decline_rate": 0.369
+    },
+    {
+      "archetype": "Near-Zero-Traffic",
+      "n": 140,
+      "impressions_median": 3.0,
+      "decline_rate": 0.143
+    }
+  ],
+  "action_mix": {
+    "monitor_closely": 11058,
+    "monitor": 7352,
+    "refresh_title_and_meta": 5925,
+    "refresh": 2887,
+    "low_priority": 2638,
+    "deprioritize": 140
+  }
+}
